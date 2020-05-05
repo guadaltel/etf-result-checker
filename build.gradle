@@ -10,7 +10,7 @@ repositories {
     mavenCentral()
 
     maven {
-        url "https://af.etf.interactive-instruments.de/repository/ext-releases-local"
+        url "https://af4.etf.interactive-instruments.de/artifactory/ext-releases-local"
         content {
             excludeGroupByRegex "de\\.interactive_instruments.*"
         }
@@ -25,7 +25,7 @@ repositories {
     }
 
     maven {
-        url "https://af.etf.interactive-instruments.de/repository/snapshot"
+        url "https://af4.etf.interactive-instruments.de/artifactory/snapshot"
         content {
             includeGroupByRegex "de\\.interactive_instruments.*"
         }
