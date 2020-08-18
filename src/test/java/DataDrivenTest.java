@@ -335,8 +335,10 @@ class DataDrivenTest {
             final AdHocTestObject testObject;
             if(dataFile!=null) {
                 testObject = etfEndpoint.newAdHocTestObject().fromDataSet(this.dataFile.toPath());
-            }else{
-                testObject = etfEndpoint.newAdHocTestObject().fromDataSet(new URL(runObj.getString("url")));
+            }else if(runObj.has("endpoint")){
+            	testObject = etfEndpoint.newAdHocTestObject().fromService(new URL(runObj.getString("endpoint")));
+            } else {
+            	testObject = etfEndpoint.newAdHocTestObject().fromDataSet(new URL(runObj.getString("url")));
             }
             if(generateTemplate) {
                 final TestRun tr = executable.execute(testObject, runParameters);
