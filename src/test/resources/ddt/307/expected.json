@@ -1,0 +1,7 @@
+{ "gml.a.1: Errors loading the XML documents":{"expectedResult":"PASSED","expectedMessageCount":0,"description":"Generated from Test Run"}
+, "gml.a.2: Document root element":{"expectedResult":"PASSED","expectedMessageCount":0,"description":"Generated from Test Run"}
+, "gml.a.3: Character encoding":{"expectedResult":"NOT_APPLICABLE","expectedMessageCount":0,"description":"Generated from Test Run"}
+, "rs.a.1: Spatial reference systems in feature geometries":{"expectedResult":"PASSED","expectedMessageCount":0,"description":"Generated from Test Run"}
+, "rs.a.2: Default spatial reference systems in feature collections":{"expectedResult":"PASSED","expectedMessageCount":0,"description":"Generated from Test Run"}
+, "rs.a.3: Temporal reference systems in features":{"expectedResult":"PASSED","expectedMessageCount":0,"description":"Generated from Test Run"}
+}
