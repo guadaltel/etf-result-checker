@@ -1,4 +1,0 @@
-{
-  "executableTestSuiteIds": ["EIDc837298f-a10e-42d1-88f2-f1415cbbb463"],
-  "endpoint": "https://geodati.gov.it/RNDT/csw?request=GetCapabilities&service=CSW&acceptFormats=application%2Fxml&LANGUAGE=ita"
-}
